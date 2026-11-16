@@ -1,0 +1,9 @@
+{
+  "appId": "com.autojellyfin.app",
+  "appName": "AutoJellyFin",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true,
+    "androidScheme": "http"
+  }
+}

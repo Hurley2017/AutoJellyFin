@@ -1,0 +1,38 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Desktop build outputs
+desktop/dist-electron/
+desktop/dist-renderer/
+desktop/release/
+
+# Android build outputs
+android/dist/
+android/android/.gradle/
+android/android/build/
+android/android/app/build/
+android/android/.idea/
+android/android/*.iml
+android/android/app/*.iml
+android/android/local.properties
+android/android/captures/
+android/android/.externalNativeBuild/
+android/android/.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log

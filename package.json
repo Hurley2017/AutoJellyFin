@@ -1,0 +1,33 @@
+{
+  "name": "autojellyfin-workspace",
+  "version": "1.0.0",
+  "description": "AutoJellyFin - Cross-platform Jellyfin client with hostel LAN auto-discovery for Windows (Electron) and Android",
+  "private": true,
+  "workspaces": [
+    "desktop",
+    "android"
+  ],
+  "scripts": {
+    "desktop:dev": "npm --prefix desktop run dev",
+    "desktop:build": "npm --prefix desktop run build",
+    "desktop:start": "npm --prefix desktop run start",
+    "desktop:package": "npm --prefix desktop run package",
+    "desktop:dist": "npm --prefix desktop run dist",
+    "android:dev": "npm --prefix android run dev",
+    "android:build": "npm --prefix android run build",
+    "android:sync": "npm --prefix android run sync",
+    "android:open": "npm --prefix android run open:android",
+    "server:start": "scripts\\start-jellyfin.bat"
+  },
+  "keywords": [
+    "jellyfin",
+    "electron",
+    "android",
+    "hostel",
+    "streaming",
+    "media-server",
+    "autodiscovery"
+  ],
+  "author": "AutoJellyFin",
+  "license": "MIT"
+}
